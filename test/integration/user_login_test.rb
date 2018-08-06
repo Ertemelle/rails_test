@@ -6,9 +6,15 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     @user = users(:bob)
   end
 
+  test "login with invalid information" do
+    get login_path
+    assert_template 'sessions/new'
+    post login_path, params: { session: { email: "" } }
+    assert_template 'sessions/new'
+    get home_path
+  end
 
-
-  test "Accueil loggé" do
+  test "Valid login" do
     get login_path
     post login_path, params: { session: { user_id: @user.id, email: @user.email } }
     follow_redirect!
