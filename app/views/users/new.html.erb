@@ -1,2 +1,14 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1>JOIN THE CLUB RIGHT NOW !</h1>
+
+<%= form_for @user do |f| %>
+  <div class='form-group'>
+  	<div class='form-group'>
+    <label><strong>first name</strong></label>
+    <center><%= f.text_field :first_name, class: 'form-control', placeholder: 'first name'%></center>
+    <label><strong>last name</strong></label>
+    <center><%= f.text_field :last_name, class: 'form-control', placeholder: 'last name'%></center>    
+    <label><strong>Email</strong></label>
+    <center><%= f.text_field :email, class: 'form-control', placeholder: 'toto@mail.com'%></center>
+  </div>
+  <center><button type='submit' class='btn btn-primary'><strong>Save</strong></button></center>  
+<% end %>
