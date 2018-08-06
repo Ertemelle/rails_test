@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
+bob:
+  first_name: Bob
+  last_name: Lebricoleur
+  email: bob@leroy.merlin
 
-two:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
+alice:
+  first_name: Alice
+  last_name: Merveille
+  email: alice@chapelier.fou
