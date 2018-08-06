@@ -1,24 +1,16 @@
-# README
+<h1>Premiers test en Rails</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici notre lien Heroku vers le site : https://rails-test-rennes.herokuapp.com/
 
-Things you may want to cover:
+<h2> Instructions </h2>
 
-* Ruby version
+Faites d'abords un $git clone https://github.com/Ertemelle/rails_test.git
 
-* System dependencies
+Puis un $bundle install
+et enfin un $rails db:migrate
 
-* Configuration
+Puis faites votre petite vie, baladez vous, lancez les tests, toussatoussa !
 
-* Database creation
+Le bisou.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Made with love by : Romain, Rémi et Sandrine
