@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<center><h1>Hello <%= user.first_name %></h1>
-<h2>If you want to see the other members of the club ?</h2>
-<%= link_to 'met the club', club_path, class: "btn btn-lg btn-primary" %></center>
->>>>>>> master
+
+<center><h1>Hello <%= User.find(params[:id]).first_name %></h1>
+<h2>Do you want to see the other members of the club ?</h2>
+<%= link_to 'Meet the club', club_path, class: "btn btn-lg btn-primary" %></center>
+
