@@ -5,6 +5,7 @@ Voici notre lien Heroku vers le site : https://rails-test-rennes.herokuapp.com/
 <h2> Instructions </h2>
 
 Faites d'abords un $git clone https://github.com/Ertemelle/rails_test.git
+
 Puis un $bundle install
 et enfin un $rails db:migrate
 
